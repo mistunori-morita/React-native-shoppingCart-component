@@ -113,3 +113,6 @@ export default class HeroImage extends Component {
 ```
 #### こんな形になる
 ![pc](img/1.png)
+
+## 完成図
+![pc](img/2.gif)
