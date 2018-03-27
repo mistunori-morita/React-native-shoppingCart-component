@@ -1,10 +1,11 @@
 /* @flow */
 
 import React, { Component } from 'react';
+import HeroText from './HeroText';
 import {
   View,
   Text,
-  Image,
+  ImageBackground,
   StyleSheet,
 } from 'react-native';
 
@@ -12,10 +13,12 @@ export default class HeroImage extends Component {
   render() {
     return (
 
-        <Image
+        <ImageBackground
           source={require('../img/img2.jpeg')}
           style={styles.hero}
-        />
+        >
+          <HeroText />
+        </ImageBackground>
     );
   }
 }

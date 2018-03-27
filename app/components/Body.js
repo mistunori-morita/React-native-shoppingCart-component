@@ -17,16 +17,16 @@ export default class Body extends Component {
           <CompoImage imageSource={require('../img/img3.jpeg')}/>
         </View>
         <View style={styles.column2}>
-          <CompoImage imageSource={require('../img/img3.jpeg')}/>
+          <CompoImage imageSource={require('../img/img4.jpg')}/>
         </View>
         <View style={styles.full}>
-          <CompoImage imageSource={require('../img/img3.jpeg')}/>
+          <CompoImage imageSource={require('../img/img5.jpeg')}/>
         </View>
 
-        <View style={styles.column2}>
-          <CompoImage imageSource={require('../img/img3.jpeg')}/>
-        </View>
         <View style={styles.column1}>
+          <CompoImage imageSource={require('../img/img6.jpeg')}/>
+        </View>
+        <View style={styles.column2}>
           <CompoImage imageSource={require('../img/img3.jpeg')}/>
         </View>
         <View style={styles.full}>

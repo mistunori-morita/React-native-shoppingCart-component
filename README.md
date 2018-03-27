@@ -84,3 +84,32 @@ render() {
     backgroundColor: '#fff',
   },
 ```
+
+- 背景画像として扱う方法
+```js
+
+import {
+  View,
+  Text,
+  //ImageBackgroundに変更してラップすると使える
+  ImageBackground,
+  StyleSheet,
+} from 'react-native';
+
+export default class HeroImage extends Component {
+  render() {
+    return (
+        //ImageBackgroundでラップすると
+        <ImageBackground
+          source={require('../img/img2.jpeg')}
+          style={styles.hero}
+        >
+          <HeroText />
+        </ImageBackground>
+    );
+  }
+}
+
+```
+- こんな形になる
+![pc](img/1.png)
