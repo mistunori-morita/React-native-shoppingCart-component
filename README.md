@@ -111,5 +111,5 @@ export default class HeroImage extends Component {
 }
 
 ```
-- こんな形になる
+#### こんな形になる
 ![pc](img/1.png)
